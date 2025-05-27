@@ -95,10 +95,8 @@ public class GameService
 					response.WinnerName = _currentRound.Winner.Name;
 				}
 
-				// Сохраняем результаты раунда
 				await SaveRoundResultsAsync(_currentRound);
 
-				// Начинаем новый раунд, если есть ожидающие игроки
 				StartNewRoundIfPossible();
 			}
 

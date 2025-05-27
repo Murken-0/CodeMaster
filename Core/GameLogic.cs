@@ -13,7 +13,6 @@ public static class GameLogic
 		var secretCodeChars = secretCode.ToCharArray();
 		var guessChars = guess.ToCharArray();
 
-		// Сначала считаем черные маркеры (правильные позиции)
 		for (int i = 0; i < secretCodeChars.Length; i++)
 		{
 			if (secretCodeChars[i] == guessChars[i])
@@ -24,7 +23,6 @@ public static class GameLogic
 			}
 		}
 
-		// Затем считаем белые маркеры (правильные символы на неправильных позициях)
 		for (int i = 0; i < secretCodeChars.Length; i++)
 		{
 			if (secretCodeChars[i] == '_') continue;
