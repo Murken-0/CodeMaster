@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RoundResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <StartTime>2025-05-27T21:49:22.0626492Z</StartTime>
+  <EndTime>2025-05-27T21:58:46.6057296Z</EndTime>
+  <SecretCode>7V0A</SecretCode>
+  <Players>
+    <PlayerResult>
+      <Id>37fee070-89cd-4c1d-b2cb-750dc02fd944</Id>
+      <Name>Player_846</Name>
+      <Attempts>26</Attempts>
+      <IsWinner>false</IsWinner>
+    </PlayerResult>
+    <PlayerResult>
+      <Id>7a4e45c0-c41c-4706-8250-bfee487b0829</Id>
+      <Name>Player_187</Name>
+      <Attempts>3</Attempts>
+      <IsWinner>true</IsWinner>
+    </PlayerResult>
+  </Players>
+  <WinnerId>7a4e45c0-c41c-4706-8250-bfee487b0829</WinnerId>
+  <WinnerName>Player_187</WinnerName>
+</RoundResult>
